@@ -1,6 +1,6 @@
 import {useState, useMemo} from 'react'
 
-function useToggle(defaultValue = false, reverseValue){
+export default function useToggle(defaultValue = false, reverseValue){
     const [state, setState] = useState(defaultValue);
 
     const actions = useMemo(() => {
@@ -26,5 +26,3 @@ function useToggle(defaultValue = false, reverseValue){
 
     return [state, actions];
 }
-
-export default useToggle;
