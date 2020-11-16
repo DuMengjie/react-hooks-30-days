@@ -2,7 +2,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 import { Card, Row, Col } from 'antd';
 
-import { UseToggleDemo, UseBooleanDemo, UseSetStateDemo } from './demos'
+import { UseToggleDemo, UseBooleanDemo, UseSetStateDemo, UsePreviousDemo } from './demos'
 
 function App() {
   return (
@@ -17,6 +17,9 @@ function App() {
         </Col>
         <Col span={12}>
           <UseSetStateDemo />
+        </Col>
+        <Col span={12}>
+          <UsePreviousDemo />
         </Col>
       </Row>
     </div>

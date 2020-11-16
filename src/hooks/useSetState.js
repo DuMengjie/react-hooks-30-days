@@ -1,5 +1,4 @@
 import {useState, useCallback} from 'react'
-import useToggle from './useToggle'
 
 export default function useSetState(defaultValue = {}){
     const [state, setState] = useState(defaultValue);

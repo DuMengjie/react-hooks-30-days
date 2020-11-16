@@ -10,3 +10,7 @@ body {
 .App h2 {
   margin-top: 0;
 }
+
+.App .ant-col {
+  margin-bottom: 12px;
+}
