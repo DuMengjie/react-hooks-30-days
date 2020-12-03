@@ -10,7 +10,7 @@ export default () => {
     });
 
     return (
-      <Card title='useBoolean'>
+      <Card title='useSetState'>
         <pre>{JSON.stringify(state, null, 2)}</pre>
         <p>
           <button type="button" onClick={() => setState({hello: 'world'})}>
